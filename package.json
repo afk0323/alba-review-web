@@ -11,7 +11,10 @@
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
+    "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
+    "react-naver-login": "^0.1.4",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-datepicker": "^4.10.0",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
     "eslint": "^8.37.0",
@@ -51,7 +55,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "pre-commit": "^1.2.2",
+    "node-sass": "^7.0.3",
     "prettier": "^2.8.7"
   }
 }

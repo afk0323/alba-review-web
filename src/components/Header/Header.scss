@@ -1,0 +1,35 @@
+Header {
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 80px;
+
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #333;
+                    &:hover {
+                    color: #666;
+                    }
+                    span {
+                    font-family: 'KimjungchulGothic-Bold';
+                    font-size: 15px;
+                    font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}

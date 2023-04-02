@@ -1,0 +1,150 @@
+.Main-userjoin {
+  .joinform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'KimjungchulGothic-Bold';
+    
+    .join {
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+
+    .nickname {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 20px;
+
+      label {
+        font-size: 20px;
+        margin: 0 25px 10px 10px;
+      }
+
+      input {
+        padding: 10px 5px 10px 10px;
+        margin: 0 10px 10px 15px;
+        font-family: 'KimjungchulGothic-Bold';
+        font-size: 18px;
+        text-indent: 10px;
+        border-radius: 30px;
+        border: 2px solid #666;
+        margin-bottom: 10px;
+        width: 300px;
+      }
+
+      button {
+        padding: 10px;
+        margin-bottom: 10px;
+        font-family: 'KimjungchulGothic-Bold';
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        background-color: #f1f1f1;
+        color: #666;
+        width: 100px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #626262;
+          color: #f1f1f1;
+        }
+      }
+    }
+
+    .choice {
+      display: flex;
+      flex-direction: row;
+    
+      .birthday{
+        display: flex;
+        flex-direction: row;
+
+        label {
+          width: 100px;
+          font-size: 20px;
+          margin: 10px 10px 10px 0;
+        }
+      
+        .react-datepicker-wrapper {
+          width: 100px;
+          .react-datepicker__input-container {
+            input {
+              font-family: 'KimjungchulGothic-Bold';
+              padding: 12px;
+              font-size: 16px;
+              border-radius: 30px;
+              border: 2px solid #666;
+              width: 100px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .gender {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 10px 10px 50px;
+        font-size: 20px;
+
+        label {
+          margin: 0 20px 0 0;
+        }
+
+        .sex{
+          margin: 0 0 0 10px;
+          cursor: pointer;
+
+          span {
+            padding: 10px 30px 10px 30px;
+            border: 2px solid #666;
+            border-radius: 30px;
+          }
+          
+          input[type='radio'] {
+            display: none;
+          }
+
+          input[type="radio"]:checked + span {
+            background-color: #666;
+            color: white;
+          }
+        }
+      }  
+    }
+
+    .start {
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        padding: 20px 200px 20px 200px;
+        width: 100px;
+        font-family: 'KimjungchulGothic-Bold';
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        background-color: #f1f1f1;
+        color: #666;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 50px;
+    
+        &:hover {
+          background-color: #626262;
+          color: #f1f1f1;
+        }
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: 'KimjungchulGothic-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}

@@ -1,15 +1,21 @@
 {
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "extends": [
     "airbnb-typescript",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "plugins": [
+    "import",
+    "react",
     "react-hooks",
     "prettier"
   ],
   "rules": {
+    "import/extensions": "error",
+    "react/jsx-filename-extension": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "prettier/prettier": "error"
