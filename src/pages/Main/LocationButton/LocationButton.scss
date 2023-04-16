@@ -1,0 +1,26 @@
+.LocationButton {
+    display: flex;
+    justify-content: center;
+    
+    button {
+      font-family: 'KimjungchulGothic-Bold';
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 80px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0069d9;
+      }
+    }
+  }
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}

@@ -1,16 +1,14 @@
 .Main-userinfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    height: 20vh;
-    background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-family: 'KimjungchulGothic-Bold';
   
-    .phrase {
-      font-family: 'KimjungchulGothic-Bold';
-      font-size: 35px;
-      color: #626262;
-    }
+  .phrase {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
 }
   
 @font-face {
